@@ -3,3 +3,4 @@ bayesian-optimization==1.2.0
 xgboost==1.5.0
 matplotlib==3.4.3
 scikit-learn==1.0.1
+lightgbm==3.3.1

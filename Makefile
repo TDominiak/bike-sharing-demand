@@ -14,8 +14,9 @@ run:
 	python -m bike_sharing_demand
 
 ## push: pushes service image to docker registry
+
 docker-run: build-docker
-	docker run -it $(DOCKER_IMAGE)
+	docker run -v $(MOUNT):/bs/data -it $(DOCKER_IMAGE)
 
 ## build: build docker image
 build-docker:
