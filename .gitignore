@@ -33,6 +33,6 @@ venv/
 
 # Folder with data
 data/
-models/
+/models/
 lightning_logs/
 optuna_test/
