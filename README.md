@@ -29,5 +29,5 @@ To get a local copy up and running follow these simple steps.
 ### Run in docker
 1. Run docker
    ```sh
-   make MOUNT=<your-folder-path>/bike-sharing-demand/data docker-run
+   make docker-run MOUNT=<your-folder-path>/bike-sharing-demand/data 
    ```
