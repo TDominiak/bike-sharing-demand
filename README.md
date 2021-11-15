@@ -19,7 +19,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Install packages
    ```sh
-   pip install requirements.txt
+   pip install -r requirements.txt
    ```
 2. Run code
    ```sh
